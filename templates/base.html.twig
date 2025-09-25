@@ -10,8 +10,12 @@
         {% block javascripts %}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
+
+        {{ importmap('app') }}
+
     </head>
     <body>
+        <button type="button" class="btn btn-primary">Primary</button>
         {% block body %}{% endblock %}
     </body>
 </html>
