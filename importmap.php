@@ -33,4 +33,10 @@ return [
         'version' => '1.13.1',
         'type' => 'css',
     ],
+    'bootstrap' => [
+        'version' => '5.3.8',
+    ],
+    '@popperjs/core' => [
+        'version' => '2.11.8',
+    ],
 ];
